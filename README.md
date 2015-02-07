@@ -14,4 +14,6 @@ We use a proprietary OAuth implementation that ultimately rests on you being acc
 
 ### API Calls:
 
-`PET /cat/:name/
+Fuck your standards, cats say. We've implemented a whole set of custom HTTP verbs designed to please our grimalkin overlords. Examples:
+
+`PET /cat/:name?attempt_belly_rub=true`
