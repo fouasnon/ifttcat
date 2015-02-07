@@ -44,7 +44,7 @@ Cats can be updated or "saved" a total of 8 times. Saving a cat for the 9th time
 
 Cats can exist in the following states:
 
-1. *content*: The cat has no complaints about its physical environment or wellbeing. This state automatically times out after 7 minutes.
+1. *content*: The cat has no complaints about its physical environment or wellbeing. This state automatically times out after 7 minutes, or upon any API request.
 2. *indifferent*: The default state. The cat will not care about being pinged by your server, and will either ignore or murder your packet.
 3. *pissed*: All API calls will incur an additional charge, which will be converted to paper currency for shredding.
 4. *irate*: The cat will frame you for running the Silk Road and murder-for-hire.
