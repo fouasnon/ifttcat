@@ -1,5 +1,7 @@
 # ifttcat
 
+![cat](https://raw.githubusercontent.com/fouasnon/ifttcat/master/infinicat4-2_color.png)
+
 # API Documentation
 
 We provide API libraries for Cat++, Purrl, Catskell, Pascat, Objective Cat, and KittyScript.
