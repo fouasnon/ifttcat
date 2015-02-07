@@ -9,7 +9,7 @@ Our RESTful architecture ensures all felids can nap without being restricted to 
 
 ### AUTHENTICATION
 
-We use a proprietary OAuth implementation that ultimately rests on you being accepted by the particular cat object with which you wish to interact. We recommend not being too eager (make soft, gentle API calls until the cat trusts you)
+We use a proprietary OAuth implementation that ultimately rests on you being accepted by the particular cat object with which you wish to interact. We recommend not being too eager — make soft, gentle API calls until the cat trusts you. Completely ignoring the cat is the best way to ensure an valid HTTP response.
 
 
 ### API Calls:
