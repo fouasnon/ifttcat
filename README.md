@@ -16,9 +16,9 @@ We use a proprietary OAuth implementation that ultimately rests on you being acc
 
 Fuck your standards, cats say. We've implemented a whole set of custom HTTP verbs designed to please our grimalkin overlords. Examples:
 
-`PET /cat/:name?attempt_belly_rub=true`
-`FEED /cat/:name?amount=as_much_as_she_wants`
-`LETOUT /cat:name?just_leave_the_door_open=true`
+- `PET /cat/:name?attempt_belly_rub=true`
+- `FEED /cat/:name?amount=as_much_as_she_wants`
+- `LETOUT /cat:name?just_leave_the_door_open=true`
 
 
 
