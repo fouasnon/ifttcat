@@ -24,6 +24,6 @@ Fuck your standards, cats say. We've implemented a whole set of custom HTTP verb
 
 Just for spite, the `Cat` data constructor implements `Monad`.
 
-#### Feeding:
+### Feeding:
 
 `Cat`s are extremely finicky eaters and will refuse to compile unless their type inference system (veterinarians call it the "nose") can determine what exactly it is you're trying to shove into their IO.
