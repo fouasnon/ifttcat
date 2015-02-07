@@ -22,7 +22,7 @@ Fuck your standards, cats say. We've implemented a whole set of custom HTTP verb
 
 ### Functional Implementation
 
-The `Cat` data constructor implements `Monad`, just to be an asshole about it. 
+The `Cat` data constructor implements `Monad`, `Lens`, and `Arrow`, just to be an asshole about it.
 
 `Cat`s are extremely finicky eaters and will refuse to compile unless their type inference system (veterinarians call it the "nose") can determine what exactly it is you're trying to shove into their IO.
 
