@@ -26,6 +26,9 @@ config(['$routeProvider', '$sceProvider', '$locationProvider', function($routePr
       .when('/api', {
         templateUrl: 'views/api.html',
       })
+      .when('/catregon', {
+        templateUrl: 'views/catregon.html',
+      })
       .when('/pricing', {
         templateUrl: 'views/pricing.html',
       })
