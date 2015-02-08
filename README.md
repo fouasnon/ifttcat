@@ -37,7 +37,6 @@ Fuck your standards, cats say. We've implemented a whole set of custom HTTP verb
 For spite, the `Felid` data constructor implements `Monad`, and details of its exact usage are hidden in a secret place in your basement.
 
 ```haskell
-infix l >>, >>=
 instance Monad Felid where
   Felid cat >>= fc = fc $ none of your goddamned business.
 ```
