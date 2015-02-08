@@ -29,6 +29,9 @@ config(['$routeProvider', '$sceProvider', '$locationProvider', function($routePr
       .when('/pricing', {
         templateUrl: 'views/pricing.html',
       })
+      .when('/imeow', {
+        templateUrl: 'views/imeow.html',
+      })
       .otherwise({
         redirectTo: '/home'
       });
