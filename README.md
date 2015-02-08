@@ -63,7 +63,8 @@ Cats can exist in the following states:
 
 ### AVAILABLE CALLBACKS
 
-- `onpurr`
-- `onscratch`
-- `onhate`
+- `on_purr`
+- `on_scratch`
+- `on_hate`
+- `on_shit_in_a_box`
 
