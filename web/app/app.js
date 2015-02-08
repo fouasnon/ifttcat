@@ -23,6 +23,9 @@ config(['$routeProvider', '$sceProvider', '$locationProvider', function($routePr
       .when('/channels', {
         templateUrl: 'views/channels.html',
       })
+      .when('/api', {
+        templateUrl: 'views/api.html',
+      })
       .when('/pricing', {
         templateUrl: 'views/pricing.html',
       })
