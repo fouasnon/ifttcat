@@ -4,7 +4,17 @@
 
 # API Documentation
 
-We provide API libraries for Cat++, Purrl, Catskell, Pascat, Objective Cat, and KittyScript.
+Our extensible API is designed for the internet of things, but only where things are cats. We provide a number of API endpoints to empower cats via connections to a variety of feline services.
+
+We provide API libraries for:
+
+ - Cat++
+ - Purrl
+ - Catskell
+ - Pascat
+ - Objective Cat
+ - KittyScript
+
 
 Our RESTful architecture ensures all felids can nap without being restricted to a particular platform, scratching post, or bed.
 
@@ -24,7 +34,12 @@ Fuck your standards, cats say. We've implemented a whole set of custom HTTP verb
 
 ### FUNCTIONAL IMPLEMENTATION:
 
-Just for spite, the `Cat` data constructor implements `Monad`.
+For spite, the `Felid` data constructor implements `Monad`, and details of its exact usage are hidden in a secret place in your basement.
+
+```haskell
+instance Monad Felid where
+  Felid cat >>= fc = fc $ none of your goddamned business.
+```
 
 ### FEEDING:
 
@@ -53,6 +68,8 @@ Cats can exist in the following states:
 
 ### AVAILABLE CALLBACKS
 
-`onpurr`
+- `on_purr`
+- `on_scratch`
+- `on_hate`
+- `on_shit_in_a_box`
 
-`onscratch`
